@@ -7,7 +7,7 @@ export const Container = styled.button`
 	font-size: 1em;
 	font-weight: bold;
 	color: #fff;
-	transition: filter, 0.5s;
+	transition: filter, 0.2s;
 	&:hover {
 		filter: brightness(90%);
 	}
@@ -15,5 +15,9 @@ export const Container = styled.button`
 		border: var(--orange-light) 2px solid;
 		color: var(--orange-light);
 		background: none;
+		&:hover {
+			color: #fff;
+			background: var(--orange-light);
+		}
 	}
 `
