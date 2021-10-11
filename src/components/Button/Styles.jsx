@@ -5,14 +5,13 @@ export const Container = styled.button`
 	background: var(--orange-light);
 	border-radius: 2em;
 	font-size: 1em;
-	font-weight: bold;
 	color: #fff;
 	transition: filter, 0.2s;
 	&:hover {
 		filter: brightness(90%);
 	}
 	&.outline {
-		border: var(--orange-light) 2px solid;
+		border: var(--orange-light) 1px solid;
 		color: var(--orange-light);
 		background: none;
 		&:hover {
