@@ -8,7 +8,7 @@ export const Container = styled.button`
 	color: #fff;
 	transition: filter, 0.2s;
 	&:hover {
-		filter: brightness(90%);
+		filter: brightness(120%);
 	}
 	&.outline {
 		border: var(--orange-light) 1px solid;
@@ -16,7 +16,7 @@ export const Container = styled.button`
 		background: none;
 		&:hover {
 			color: #fff;
-			background: var(--orange-light);
+			background: var(--orange-light);;
 		}
 	}
 `
