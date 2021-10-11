@@ -1,4 +1,7 @@
 import React from 'react'
+import { Button } from '../Button/Index'
+import { RatingStars } from '../RatingStars/Index'
+import { Container } from './Styles'
 
 export function LocationListItem({img,
 	title,
@@ -6,15 +9,15 @@ export function LocationListItem({img,
 	rating
 }) {
 	return (
-		<div>
-			<div>
+		<Container>
+			<div className="image">
 				<img src={img} alt={title} />
 			</div>
-			<div>
+			<div className="text">
 				<h2>{title}</h2>
-				<div>{rating}</div>
+				<span>Nota {rating} {RatingStars(rating)} </span>
 				<p>{text}</p>
 			</div>
-		</div>
+		</Container>
 	)
 }

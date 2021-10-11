@@ -3,12 +3,14 @@ import { H1Title } from "../../components/H1Title";
 import { LocationListItem } from "../../components/LocationListItem/Index";
 import { Container } from "./Styles";
 import { api } from "../../servies/api";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export function Home() {
+	const [ locationsJSON, setLocationsJSON ] = useState([]);
+
 	useEffect(() => {
 		api.get('locations')
-			.then(resp => console.log(resp.data));
+		.then(resp => setLocationsJSON(resp.data));
 	}, []);
 
 	return (
@@ -26,7 +28,17 @@ export function Home() {
 					</div>
 				</main>
 				<section id="locations">
-					<LocationListItem title="Ubatuba" text="Text ..." rating="5" />
+					{
+						locationsJSON.map((item) => {
+							return <LocationListItem
+								key = {item.id}
+								img = {item.img}
+								title = {item.title}
+								text = {item.text}
+								rating = {item.rating}
+							/>
+						})
+					}
 				</section>
 			</Container>
 		</>

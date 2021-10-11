@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
 	  --grey-bg: #E7E7E7;
 	  --orange-light: #F2762E;
 	  --orange-dark: #F23927;
+	  --grey-text: #454545;
   }
   * {
 	  padding: 0;
@@ -13,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 	  border: none;
   }
   body {
-	  font-family: sans-serif;
+	  font-family: 'Raleway', sans-serif;
 	  background: var(--grey-bg);
   }
   img {

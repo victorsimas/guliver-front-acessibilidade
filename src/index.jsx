@@ -11,7 +11,7 @@ createServer({
 					id: 0,
 					title: 'Ubatuba',
 					rating: 5,
-					text: 'Ubatuba é um dos mais espetaculares e bem preservados destinos do Litoral Norte de São Paulo. E serão necessárias muitas viagens para conhecer as mais de cem praias que recheiam o cenário recortado desse pedacinho da Serra do Mar. Ubatuba encanta com praias ainda desertas e de natureza quase intocada, muitas com acesso fácil e outras com lindas trilhas em meio à Mata Atlântica.',
+					text: 'Ubatuba é um dos mais espetaculares e bem preservados destinos do Litoral Norte de São Paulo. E serão necessárias muitas viagens para conhecer as mais de cem praias que recheiam o cenário recortado desse pedacinho da Serra do Mar.',
 					img: 'https://www.dicasdeviagem.com/wp-content/uploads/2019/04/praia-grande-ubatuba-1200x720.jpg',
 					category: 'beach'
 				},

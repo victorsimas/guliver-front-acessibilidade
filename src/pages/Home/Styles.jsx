@@ -10,5 +10,6 @@ export const Container = styled.div`
 		display: flex;
 		gap: 0.5em;
 		padding: 1em 0;
+		margin-bottom: 4em;
 	}
 `
