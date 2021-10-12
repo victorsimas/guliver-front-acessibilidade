@@ -2,7 +2,7 @@ import { Button } from "../../components/Button/Index";
 import { H1Title } from "../../components/H1Title";
 import { LocationListItem } from "../../components/LocationListItem/Index";
 import { Container } from "./Styles";
-import { api } from "../../servies/api";
+import { api } from "../../services/api";
 import { useEffect, useState } from "react";
 
 export function Home() {

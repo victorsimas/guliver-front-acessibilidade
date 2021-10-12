@@ -36,7 +36,7 @@ export function RatingStars(rating) {
 					<img src={emptyStarImg} alt={'Estrela'} />
 				</>
 			)
-		if (rating <= 3.9)
+		else if (rating <= 3.9)
 			return (
 				<>
 					<img src={starImg} alt={'Estrela'} />
@@ -46,7 +46,7 @@ export function RatingStars(rating) {
 					<img src={emptyStarImg} alt={'Estrela'} />
 				</>
 			)
-		if (rating <= 4.9)
+		else if (rating <= 4.9)
 			return (
 				<>
 					<img src={starImg} alt={'Estrela'} />
