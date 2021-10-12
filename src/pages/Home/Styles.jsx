@@ -8,6 +8,7 @@ export const Container = styled.div`
 	padding: 4em 2em;
 	& .nav-bar {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 0.5em;
 		padding: 1em 0;
 		margin-bottom: 4em;
