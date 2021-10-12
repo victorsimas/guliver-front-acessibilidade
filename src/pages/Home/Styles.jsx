@@ -11,6 +11,6 @@ export const Container = styled.div`
 		flex-wrap: wrap;
 		gap: 0.5em;
 		padding: 1em 0;
-		margin-bottom: 4em;
+		margin-bottom: 2em;
 	}
 `
