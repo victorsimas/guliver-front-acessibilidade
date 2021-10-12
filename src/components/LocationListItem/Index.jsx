@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../Button/Index'
 import { RatingStars } from '../RatingStars/Index'
 import { Container } from './Styles'
 

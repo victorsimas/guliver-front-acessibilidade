@@ -10,7 +10,7 @@ createServer({
 				{
 					id: 0,
 					title: 'Ubatuba',
-					rating: 5,
+					rating: 3.8,
 					text: 'Ubatuba é um dos mais espetaculares e bem preservados destinos do Litoral Norte de São Paulo. E serão necessárias muitas viagens para conhecer as mais de cem praias que recheiam o cenário recortado desse pedacinho da Serra do Mar.',
 					img: 'https://www.dicasdeviagem.com/wp-content/uploads/2019/04/praia-grande-ubatuba-1200x720.jpg',
 					category: 'beach'
@@ -45,7 +45,7 @@ createServer({
 					rating: 4.5,
 					text: 'Habitada por pouco mais de 2 milhões de pessoas – sem contar a zona metropolitana –, a capital da França não foi presenteada com uma geografia que a diferenciasse especialmente por sua beleza natural',
 					img: 'https://viagemeturismo.abril.com.br/wp-content/uploads/2016/11/thinkstockphotos-4549879531.jpeg?quality=70&strip=info&resize=680,453',
-					category: 'nature'
+					category: 'international'
 				}
 			]
 		})

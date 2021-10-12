@@ -9,60 +9,60 @@ export function RatingStars(rating) {
 		if (rating <= 0.9)
 			return (
 				<>
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
 				</>
 			)
 		else if (rating <= 1.9)
 			return (
 				<>
-					<img src={starImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
 				</>
 			)
 		else if (rating <= 2.9)
 			return (
 				<>
-					<img src={starImg} />
-					<img src={starImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
 				</>
 			)
 		if (rating <= 3.9)
 			return (
 				<>
-					<img src={starImg} />
-					<img src={starImg} />
-					<img src={starImg} />
-					<img src={emptyStarImg} />
-					<img src={emptyStarImg} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
 				</>
 			)
 		if (rating <= 4.9)
 			return (
 				<>
-					<img src={starImg} />
-					<img src={starImg} />
-					<img src={starImg} />
-					<img src={starImg} />
-					<img src={emptyStarImg} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={starImg} alt={'Estrela'} />
+					<img src={emptyStarImg} alt={'Estrela'} />
 				</>
 			)
 		return (
 			<>
-				<img src={starImg} />
-				<img src={starImg} />
-				<img src={starImg} />
-				<img src={starImg} />
-				<img src={starImg} />
+				<img src={starImg} alt={'Estrela'} />
+				<img src={starImg} alt={'Estrela'} />
+				<img src={starImg} alt={'Estrela'} />
+				<img src={starImg} alt={'Estrela'} />
+				<img src={starImg} alt={'Estrela'} />
 			</>
 		)
 	}
