@@ -5,7 +5,7 @@ import { Container } from "./Styles";
 import { api } from "../../services/api";
 import { useEffect, useState } from "react";
 
-export function Home() {
+export function TouristLocations() {
 	const [ locationsJSON, setLocationsJSON ] = useState([]);
 	const [ locationsFilter, setLocationsFilter ] = useState(null);
 
@@ -15,7 +15,7 @@ export function Home() {
 	}, []);
 
 	function handleSetFilter(category) {
-		setLocationsFilter(category);
+			setLocationsFilter(category);
 	}
 
 	return (
@@ -44,7 +44,7 @@ export function Home() {
 						>Em alta</Button>
 					</div>
 				</main>
-				<section id="locations">
+				<section className="locations">
 					{
 						locationsFilter ?
 

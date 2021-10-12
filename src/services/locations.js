@@ -1,13 +1,5 @@
 export const locations = [
   {
-    id: 0,
-    title: "Ubatuba",
-    rating: 3.8,
-    text: "Ubatuba é um dos mais espetaculares e bem preservados destinos do Litoral Norte de São Paulo. E serão necessárias muitas viagens para conhecer as mais de cem praias que recheiam o cenário recortado desse pedacinho da Serra do Mar.",
-    img: "https://www.dicasdeviagem.com/wp-content/uploads/2019/04/praia-grande-ubatuba-1200x720.jpg",
-    category: "beach",
-  },
-  {
     id: 1,
     title: "Salvador",
     rating: 5,
@@ -30,6 +22,14 @@ export const locations = [
     text: "A Chapada dos Veadeiros é um convite irrecusável aos amantes do ecoturismo. A região, que engloba oito municípios do interior de Goiás, tem como principais bases de apoio para os turistas a cidade de Alto Paraíso de Goiás, a Vila de São Jorge e Cavalcante.",
     img: "https://spguia.melhoresdestinos.com.br/system/fotos_local/fotos/47811/show/cachoeiras-almecegas-i-e-ii.jpg",
     category: "nature",
+  },
+  {
+    id: 0,
+    title: "Ubatuba",
+    rating: 3.8,
+    text: "Ubatuba é um dos mais espetaculares e bem preservados destinos do Litoral Norte de São Paulo. E serão necessárias muitas viagens para conhecer as mais de cem praias que recheiam o cenário recortado desse pedacinho da Serra do Mar.",
+    img: "https://www.dicasdeviagem.com/wp-content/uploads/2019/04/praia-grande-ubatuba-1200x720.jpg",
+    category: "beach",
   },
   {
     id: 4,
