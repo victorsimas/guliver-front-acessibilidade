@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
-export function H1Title ({title}) {
+export function H1Title ({children}) {
 	return (
-		<Container>{title}</Container>
+		<Container>{children}</Container>
 	)
 }

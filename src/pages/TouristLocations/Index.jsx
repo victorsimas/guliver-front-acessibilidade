@@ -22,7 +22,7 @@ export function TouristLocations() {
 		<>
 			<Container>
 				<main>
-					<H1Title title="Navegue por locais turísticos"/>
+					<H1Title>Navegue por locais turísticos</H1Title>
 					<div className="nav-bar">
 						<Button
 						onClick={()=> handleSetFilter('')}
