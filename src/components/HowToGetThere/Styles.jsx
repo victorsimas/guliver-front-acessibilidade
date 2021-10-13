@@ -56,4 +56,14 @@ export const Container = styled.section`
 			display: none;
 		}
 	}
+	@media (max-width: 420px) {
+		.search-input {
+			flex-wrap: wrap;
+			flex: 1;
+		}
+		input,
+		button {
+			border-radius: 2em;
+		}
+	}
 `
