@@ -6,6 +6,7 @@ export const Container = styled.section`
 	background: #F9EFE3;
 	margin: 0 auto;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	height: 300px;
 	& p {
@@ -49,5 +50,10 @@ export const Container = styled.section`
 		flex: 2;
 		width: 100%;
 		height: 100%;
+	}
+	@media (max-width: 780px) {
+		iframe {
+			display: none;
+		}
 	}
 `

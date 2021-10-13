@@ -1,6 +1,14 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+	html {
+			@media (max-width: 1080px) {
+				font-size: 93.75%;
+			}
+			@media (max-width: 720px) {
+				font-size: 87.5%;
+			}
+	}
   :root {
 	  --grey-bg: #E7E7E7;
 	  --orange-light: #F2762E;
@@ -23,4 +31,4 @@ export const GlobalStyle = createGlobalStyle`
   button {
 	  cursor: pointer;
   }
-`
+`;
