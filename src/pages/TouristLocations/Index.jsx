@@ -1,5 +1,5 @@
 import { Button } from "../../components/Button/Index";
-import { H1Title } from "../../components/H1Title";
+import { H1 } from "../../components/H1";
 import { LocationListItem } from "../../components/LocationListItem/Index";
 import { Container } from "./Styles";
 import { api } from "../../services/api";
@@ -22,7 +22,7 @@ export function TouristLocations() {
 		<>
 			<Container>
 				<main>
-					<H1Title>Navegue por locais turísticos</H1Title>
+					<H1>Navegue por locais turísticos</H1>
 					<div className="nav-bar">
 						<Button
 						onClick={()=> handleSetFilter('')}

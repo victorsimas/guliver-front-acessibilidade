@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
-import { H1Title } from "../../components/H1Title";
+import { H1 } from "../../components/H1/index";
 import { H2 } from "../../components/H2/Index";
 import { HowToGetThere } from "../../components/HowToGetThere/Index";
 import { api } from "../../services/api";
@@ -20,9 +20,9 @@ export function Home(){
 				<img src={locationJSON.img} alt={''} />
 			</Banner>
 			<Container>
-				<H1Title>
+				<H1>
 					Você está em {locationJSON.title}
-				</H1Title>
+				</H1>
 				<div className="nav-bar">
 					<Button>Dicas úteis</Button>
 					<Button outline>História</Button>

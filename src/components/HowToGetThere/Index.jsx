@@ -20,14 +20,10 @@ export function HowToGetThere({ location }) {
         </div>
       </div>
       <iframe
+	  	title={`Google Maps ${location}`}
         width="100%"
         height="100%"
-        id="gmap_canvas"
         src={`https://maps.google.com/maps?q=${location}&t=&z=7&ie=UTF8&iwloc=&output=embed`}
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
       />
     </Container>
   );
