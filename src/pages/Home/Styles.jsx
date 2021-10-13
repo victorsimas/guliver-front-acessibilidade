@@ -16,6 +16,15 @@ export const Container = styled.div`
 		padding: 1em 0;
 		margin-bottom: 2em;
 	}
+	& section {
+		padding: 0 2.5em;
+		& p {
+			padding: 1em 0;
+			color: var(--grey-text);
+			line-height: 1.5;
+			font-size: 1.2em;
+		}
+	}
 `
 
 export const Banner = styled.div`

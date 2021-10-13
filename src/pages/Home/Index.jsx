@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
 import { H1Title } from "../../components/H1Title";
+import { H2 } from "../../components/H2/Index";
 import { api } from "../../services/api";
 import { Banner, Container } from "./Styles";
 
@@ -33,7 +34,13 @@ export function Home(){
 						<Button outline>Alugue o seu carro</Button>
 					</div>
 				<section>
-
+					<H2>
+						História de {locationJSON.title}
+					</H2>
+					<p>
+						{locationJSON.history?.text}
+					</p>
+					<Button outline>Ler mais</Button>
 				</section>
 			</Container>
 		</>
