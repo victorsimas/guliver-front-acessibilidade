@@ -7,7 +7,7 @@ export const Container = styled.div`
 	margin: 0 auto;
 	padding: 2em 2em;
 	& h1 {
-		padding: 0.5em 0 0;
+		padding: 1em 0 0;
 	}
 	& .nav-bar {
 		display: flex;

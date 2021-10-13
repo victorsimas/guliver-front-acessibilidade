@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
 import { H1Title } from "../../components/H1Title";
 import { H2 } from "../../components/H2/Index";
+import { HowToGetThere } from "../../components/HowToGetThere/Index";
 import { api } from "../../services/api";
 import { Banner, Container } from "./Styles";
 
@@ -23,16 +24,16 @@ export function Home(){
 					Você está em {locationJSON.title}
 				</H1Title>
 				<div className="nav-bar">
-						<Button>Dicas úteis</Button>
-						<Button outline>História</Button>
-						<Button outline>Como chegar</Button>
-						<Button outline>Cultura</Button>
-						<Button outline>Gastronomia</Button>
-						<Button outline>Parques</Button>
-						<Button outline>Vida noturna</Button>
-						<Button outline>Entretenimento</Button>
-						<Button outline>Alugue o seu carro</Button>
-					</div>
+					<Button>Dicas úteis</Button>
+					<Button outline>História</Button>
+					<Button outline>Como chegar</Button>
+					<Button outline>Cultura</Button>
+					<Button outline>Gastronomia</Button>
+					<Button outline>Parques</Button>
+					<Button outline>Vida noturna</Button>
+					<Button outline>Entretenimento</Button>
+					<Button outline>Alugue o seu carro</Button>
+				</div>
 				<section>
 					<H2>
 						História de {locationJSON.title}
@@ -43,6 +44,7 @@ export function Home(){
 					<Button outline>Ler mais</Button>
 				</section>
 			</Container>
+			<HowToGetThere location={locationJSON.title}/>
 		</>
 	)
 }
