@@ -45,6 +45,23 @@ export function Home(){
 				</section>
 			</Container>
 			<HowToGetThere location={locationJSON.title}/>
+			<Container>
+				<section className="culture">
+					<H2>Cultura de {locationJSON.title}</H2>
+					<div>
+						<div>
+							<p>{locationJSON.culture?.text}</p>
+							<Button outline>
+								Ler mais
+							</Button>
+						</div>
+						<div className="image">
+							<img src={locationJSON.culture?.img}
+								alt={`cultura de ${locationJSON.title}`} />
+						</div>
+					</div>
+				</section>
+			</Container>
 		</>
 	)
 }

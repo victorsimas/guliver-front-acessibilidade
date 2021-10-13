@@ -17,12 +17,33 @@ export const Container = styled.div`
 		margin-bottom: 2em;
 	}
 	& section {
-		padding: 0 2.5em;
+		padding: 2em 2.5em;
 		& p {
 			padding: 1em 0;
 			color: var(--grey-text);
 			line-height: 1.5;
 			font-size: 1.2em;
+		}
+	}
+	& .culture > div {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5em;
+		& > div {
+			flex: 2;
+			padding: 0.5em;
+		}
+		& .image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	& .culture {
+		@media (max-width: 720px) {
+			& > div {
+				flex-direction: column-reverse;
+			}
 		}
 	}
 `
