@@ -1,13 +1,10 @@
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
-<<<<<<< HEAD
 //import DicasUteis from "../../components/DicasUteis";
-import { H1Title } from "../../components/H1Title";
-=======
+import { H1Title } from "../../components/H1";
 import { H1 } from "../../components/H1/index";
 import { H2 } from "../../components/H2/Index";
 import { HowToGetThere } from "../../components/HowToGetThere/Index";
->>>>>>> 6101ab57e38e7e11d2c8b5432969bcc7ee4b358e
 import { api } from "../../services/api";
 import { Banner, Container } from "./Styles";
 

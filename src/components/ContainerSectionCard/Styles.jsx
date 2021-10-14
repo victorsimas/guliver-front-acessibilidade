@@ -10,7 +10,7 @@ padding: 2em 2em;
 display: flex;
 flex-direction: column;
 
-border: 1px solid red;
+//border: 1px solid red;
 `;
 
 
@@ -32,7 +32,7 @@ width: 100%;
 margin: 5px;
 display: flex;
 flex-direction: column;
-border: 1px solid blue;
+//border: 1px solid blue;
 
 `;
 
