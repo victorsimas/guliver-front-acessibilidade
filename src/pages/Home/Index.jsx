@@ -1,7 +1,13 @@
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
+<<<<<<< HEAD
 //import DicasUteis from "../../components/DicasUteis";
 import { H1Title } from "../../components/H1Title";
+=======
+import { H1 } from "../../components/H1/index";
+import { H2 } from "../../components/H2/Index";
+import { HowToGetThere } from "../../components/HowToGetThere/Index";
+>>>>>>> 6101ab57e38e7e11d2c8b5432969bcc7ee4b358e
 import { api } from "../../services/api";
 import { Banner, Container } from "./Styles";
 
@@ -19,22 +25,46 @@ export function Home(){
 				<img src={locationJSON.img} alt={''} />
 			</Banner>
 			<Container>
-				<H1Title>
+				<H1>
 					Você está em {locationJSON.title}
-				</H1Title>
+				</H1>
 				<div className="nav-bar">
-						<Button>Dicas úteis</Button>
-						<Button outline>História</Button>
-						<Button outline>Como chegar</Button>
-						<Button outline>Cultura</Button>
-						<Button outline>Gastronomia</Button>
-						<Button outline>Parques</Button>
-						<Button outline>Vida noturna</Button>
-						<Button outline>Entretenimento</Button>
-						<Button outline>Alugue o seu carro</Button>
-					</div>
+					<Button>Dicas úteis</Button>
+					<Button outline>História</Button>
+					<Button outline>Como chegar</Button>
+					<Button outline>Cultura</Button>
+					<Button outline>Gastronomia</Button>
+					<Button outline>Parques</Button>
+					<Button outline>Vida noturna</Button>
+					<Button outline>Entretenimento</Button>
+					<Button outline>Alugue o seu carro</Button>
+				</div>
 				<section>
-
+					<H2>
+						História de {locationJSON.title}
+					</H2>
+					<p>
+						{locationJSON.history?.text}
+					</p>
+					<Button outline>Ler mais</Button>
+				</section>
+			</Container>
+			<HowToGetThere location={locationJSON.title}/>
+			<Container>
+				<section className="culture">
+					<H2>Cultura de {locationJSON.title}</H2>
+					<div>
+						<div>
+							<p>{locationJSON.culture?.text}</p>
+							<Button outline>
+								Ler mais
+							</Button>
+						</div>
+						<div className="image">
+							<img src={locationJSON.culture?.img}
+								alt={`cultura de ${locationJSON.title}`} />
+						</div>
+					</div>
 				</section>
 			</Container>
 
