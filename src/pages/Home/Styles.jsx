@@ -25,27 +25,6 @@ export const Container = styled.div`
 			font-size: 1.2em;
 		}
 	}
-	& .culture > div {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5em;
-		& > div {
-			flex: 2;
-			padding: 0.5em;
-		}
-		& .image {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-	}
-	& .culture {
-		@media (max-width: 720px) {
-			& > div {
-				flex-direction: column-reverse;
-			}
-		}
-	}
 `
 
 export const Banner = styled.div`

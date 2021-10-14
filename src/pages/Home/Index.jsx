@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
-//import DicasUteis from "../../components/DicasUteis";
-import { H1Title } from "../../components/H1";
+import { CultureSection } from "../../components/CultureSection/Index";
+import DicasUteis from "../../components/DicasUteis/Index";
 import { H1 } from "../../components/H1/index";
 import { H2 } from "../../components/H2/Index";
 import { HowToGetThere } from "../../components/HowToGetThere/Index";
@@ -21,7 +21,9 @@ export function Home(){
 			<Banner className="banner">
 				<img src={locationJSON.img} alt={''} />
 			</Banner>
+
 			<Container>
+				<DicasUteis />
 				<H1>
 					Você está em {locationJSON.title}
 				</H1>
@@ -46,26 +48,14 @@ export function Home(){
 					<Button outline>Ler mais</Button>
 				</section>
 			</Container>
+
 			<HowToGetThere location={locationJSON.title}/>
+
 			<Container>
-				<section className="culture">
-					<H2>Cultura de {locationJSON.title}</H2>
-					<div>
-						<div>
-							<p>{locationJSON.culture?.text}</p>
-							<Button outline>
-								Ler mais
-							</Button>
-						</div>
-						<div className="image">
-							<img src={locationJSON.culture?.img}
-								alt={`cultura de ${locationJSON.title}`} />
-						</div>
-					</div>
-				</section>
+				<CultureSection location={locationJSON} />
 			</Container>
 
-			
+
 		</>
 	)
 }
