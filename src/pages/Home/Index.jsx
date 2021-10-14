@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
+//import DicasUteis from "../../components/DicasUteis";
 import { H1Title } from "../../components/H1Title";
 import { api } from "../../services/api";
 import { Banner, Container } from "./Styles";
@@ -36,6 +37,8 @@ export function Home(){
 
 				</section>
 			</Container>
+
+			
 		</>
 	)
 }
