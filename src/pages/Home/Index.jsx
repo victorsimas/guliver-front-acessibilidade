@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
 import { CultureSection } from "../../components/CultureSection/Index";
+import DicasUteis from "../../components/DicasUteis/Index";
 import { H1 } from "../../components/H1/index";
 import { H2 } from "../../components/H2/Index";
 import { HowToGetThere } from "../../components/HowToGetThere/Index";
@@ -22,6 +23,7 @@ export function Home(){
 			</Banner>
 
 			<Container>
+				<DicasUteis />
 				<H1>
 					Você está em {locationJSON.title}
 				</H1>
@@ -52,6 +54,8 @@ export function Home(){
 			<Container>
 				<CultureSection location={locationJSON} />
 			</Container>
+
+
 		</>
 	)
 }
