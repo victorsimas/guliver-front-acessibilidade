@@ -4,7 +4,7 @@ import { Header } from "./components/Header/Index";
 import { Home } from "./pages/Home/Index";
 
 import { GlobalStyle } from "./styles/global";
-import DicasUteis from "./components/DicasUteis/Index";
+import ContainerTempTest from "./components/ContainerTempTest/Index";
 
 export function App() {
 	return (
@@ -12,8 +12,7 @@ export function App() {
 			<GlobalStyle />
 			<Header />
 			<Home />
-			<DicasUteis />
-
+			<ContainerTempTest />
 			<ContainerSectionCard />
 			<Footer />
 		</>

@@ -32,7 +32,7 @@ justify-content: space-between;
 
 .card{
 
-    background: #5c5c5c;
+    background: #454545;
 }
 
 & div {

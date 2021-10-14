@@ -18,10 +18,6 @@ export function DicasUteis() {
 
     return (
         <>
-            <S.Title>
-                <h1><FaMapSigns /> Dicas Uteis</h1>
-            </S.Title>
-
             <S.Container>
                 <div className="card w-75">
 
@@ -58,27 +54,27 @@ export function DicasUteis() {
                     <div className="card-body">
                         <h6 className="card-title">Idioma</h6>
                         <p className="card-text">
-                        <i><FaLanguage /></i>
-                                <span />
-                                pt-br | Portugues Brasileiro
+                            <i><FaLanguage /></i>
+                            <span />
+                            pt-br | Portugues Brasileiro
                         </p>
                     </div>
 
                     <div className="card-body">
                         <h6 className="card-title">Voltagem e pinagem</h6>
                         <p className="card-text">
-                        <i><FaBolt /></i>
-                                <span />
-                                120/220 ws | 3 Pinos Abnt
+                            <i><FaBolt /></i>
+                            <span />
+                            120/220 ws | 3 Pinos Abnt
                         </p>
                     </div>
 
                     <div className="card-body">
                         <h6 className="card-title">Moeda Local e Cambio</h6>
                         <p className="card-text">
-                        <i><FaRegMoneyBillAlt /></i>
-                                <span />
-                                R$ Real
+                            <i><FaRegMoneyBillAlt /></i>
+                            <span />
+                            R$ Real
                         </p>
                     </div>
                 </div>
@@ -89,27 +85,27 @@ export function DicasUteis() {
                     <div className="card-body">
                         <h6 className="card-title">Documentos Necessários</h6>
                         <p className="card-text">
-                        <i><FaPassport /></i>
-                                <span />
-                                Ri | Passaporte Internacional
+                            <i><FaPassport /></i>
+                            <span />
+                            Ri | Passaporte Internacional
                         </p>
                     </div>
 
                     <div className="card-body">
                         <h6 className="card-title">Bagagem e Roupas</h6>
                         <p className="card-text">
-                        <i><FaSuitcaseRolling /></i>
-                                <span />
-                                Bagagem
+                            <i><FaSuitcaseRolling /></i>
+                            <span />
+                            Bagagem
                         </p>
                     </div>
 
                     <div className="card-body">
                         <h6 className="card-title">Transportes na Cidade</h6>
                         <p className="card-text">
-                        <i><FaStreetView /></i>
-                                <span />
-                                Uber /99 Services | Localiza RentCar
+                            <i><FaStreetView /></i>
+                            <span />
+                            Uber /99 Services | Localiza RentCar
                         </p>
                     </div>
                 </div>
