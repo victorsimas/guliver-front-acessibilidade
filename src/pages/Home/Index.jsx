@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Index";
 import { CultureSection } from "../../components/CultureSection/Index";
 import DicasUteis from "../../components/DicasUteis/Index";
+import { GastronomySection } from "../../components/GastronomySection/Index";
 import { H1 } from "../../components/H1/index";
 import { H2 } from "../../components/H2/Index";
 import { HowToGetThere } from "../../components/HowToGetThere/Index";
+import { NightLifeSection } from "../../components/NightLifeSection/Index";
 import { api } from "../../services/api";
 import { Banner, Container } from "./Styles";
 
@@ -23,7 +25,6 @@ export function Home(){
 			</Banner>
 
 			<Container>
-				<DicasUteis />
 				<H1>
 					Você está em {locationJSON.title}
 				</H1>
@@ -38,6 +39,7 @@ export function Home(){
 					<Button outline>Entretenimento</Button>
 					<Button outline>Alugue o seu carro</Button>
 				</div>
+				<DicasUteis />
 				<section>
 					<H2>
 						História de {locationJSON.title}
@@ -53,6 +55,8 @@ export function Home(){
 
 			<Container>
 				<CultureSection location={locationJSON} />
+				<GastronomySection location={locationJSON} />
+				<NightLifeSection location={locationJSON} />
 			</Container>
 
 
