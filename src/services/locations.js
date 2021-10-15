@@ -25,20 +25,30 @@ export const locations = {
     img: "https://harpersbazaar.uol.com.br/wp-content/uploads/2019/11/masp-home.jpg",
   },
   gastronomy: {
-	  text: "São Paulo é uma das principais cidades do mundo no setor de alimentação e gastronomia. A capital paulista conta com cerca de 6% da população trabalhando com serviços de alimentação, mais de 23 mil restaurantes com culinária de diversos países do mundo, comida de rua, 13 cursos de universidades voltados à gastronomia, além de 30% da área voltada à agricultura familiar.",
-	  img: [
-		  "https://www.guiadasemana.com.br/contentFiles/system/pictures/2014/1/104127/original/mortadela.gif",
-		  "https://www.cidadeecultura.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2018/02/Sao-Paulo-Gastronomia-Brasileira-Restaurante-Badaro-Ft-Bettina-Fiuza-web.jpg.webp",
-		  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3Ib3dm2glDzgXqHp76CGX6ev3fjbef9-Hw&usqp=CAU",
-		  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1GaOSUkUF3zbQ3H46iSPMT_RbKiSOnTbWoA&usqp=CAU"
-	  ]
+    text: "São Paulo é uma das principais cidades do mundo no setor de alimentação e gastronomia. A capital paulista conta com cerca de 6% da população trabalhando com serviços de alimentação, mais de 23 mil restaurantes com culinária de diversos países do mundo, comida de rua, 13 cursos de universidades voltados à gastronomia, além de 30% da área voltada à agricultura familiar.",
+    img: [
+      "https://www.guiadasemana.com.br/contentFiles/system/pictures/2014/1/104127/original/mortadela.gif",
+      "https://www.cidadeecultura.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2018/02/Sao-Paulo-Gastronomia-Brasileira-Restaurante-Badaro-Ft-Bettina-Fiuza-web.jpg.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3Ib3dm2glDzgXqHp76CGX6ev3fjbef9-Hw&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1GaOSUkUF3zbQ3H46iSPMT_RbKiSOnTbWoA&usqp=CAU",
+    ],
   },
   nightLife: {
-	text: "A agitação de São Paulo não acaba com o cair da noite. Muito pelo contrário. A vida noturna da cidade está entre os maiores atrativos locais. Quando as portas dos escritórios se fecham, o mundo paulistano se abre para as melhores baladas do Brasil.",
-	img: [
-		"https://s2.glbimg.com/sOL7rucIS5lhNORAAXFpZjSBRkU=/512x320/smart/e.glbimg.com/og/ed/f/original/2014/11/18/04.jpg",
-		"https://quantocustaviajar.com/blog/wp-content/uploads/2019/06/curtir-a-noite-em-sp.jpg",
-		"https://sp360graus.files.wordpress.com/2013/06/bar-vila-madalena-sp1.jpg"
-	]
-  }
+    text: "A agitação de São Paulo não acaba com o cair da noite. Muito pelo contrário. A vida noturna da cidade está entre os maiores atrativos locais. Quando as portas dos escritórios se fecham, o mundo paulistano se abre para as melhores baladas do Brasil.",
+    img: [
+      "https://s2.glbimg.com/sOL7rucIS5lhNORAAXFpZjSBRkU=/512x320/smart/e.glbimg.com/og/ed/f/original/2014/11/18/04.jpg",
+      "https://quantocustaviajar.com/blog/wp-content/uploads/2019/06/curtir-a-noite-em-sp.jpg",
+      "https://sp360graus.files.wordpress.com/2013/06/bar-vila-madalena-sp1.jpg",
+    ],
+  },
+  parks: {
+    text: "Quando o final de semana está chegando, as pessoas já começam a se organizar para curtir os dias de folgas, e os lindos parques de São Paulo entram nessa lista de opções de passeios. São Paulo conta com uma variedade de parque para todo o tipo de público e estar em contato com a natureza faz bem ao corpo e a alma, ainda mais para que vive em uma cidade agitada como a capital paulista.",
+    img: [
+      "https://i1.wp.com/spcity.com.br/wp-content/uploads/2020/09/parqueaguabranca.jpg?w=1024&ssl=1",
+      "https://i0.wp.com/spcity.com.br/wp-content/uploads/2020/09/parque-juventude.jpg?w=748&ssl=1",
+      "https://i2.wp.com/spcity.com.br/wp-content/uploads/2020/09/pordosol.jpg?w=640&ssl=1",
+      "https://i0.wp.com/spcity.com.br/wp-content/uploads/2020/09/parque-villa-lobos.jpg?w=748&ssl=1",
+      "https://i2.wp.com/spcity.com.br/wp-content/uploads/2020/09/parqueibirapuera-scaled.jpg?resize=1024%2C682&ssl=1",
+    ],
+  },
 };

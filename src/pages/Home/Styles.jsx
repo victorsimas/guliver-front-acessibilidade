@@ -9,13 +9,6 @@ export const Container = styled.div`
 	& h1 {
 		padding: 1em 0 0;
 	}
-	& .nav-bar {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5em;
-		padding: 1em 0;
-		margin-bottom: 2em;
-	}
 	& section {
 		padding: 2em 2.5em;
 		& p {

@@ -12,7 +12,7 @@ export function HowToGetThere({ location }) {
           <b> rotas disponíveis</b>
         </p>
         <div className="search-input">
-          <input type="text" placeholder={`📍 ${location}`} />
+          <input type="text" placeholder={`📍 ${location.title}`} />
           <button>
 			  <img src={navigationImg} alt="Direções" />
 			  Ver rotas
@@ -20,10 +20,10 @@ export function HowToGetThere({ location }) {
         </div>
       </div>
       <iframe
-	  	title={`Google Maps ${location}`}
+	  	title={`Google Maps ${location.title}`}
         width="100%"
         height="100%"
-        src={`https://maps.google.com/maps?q=${location}&t=&z=7&ie=UTF8&iwloc=&output=embed`}
+        src={`https://maps.google.com/maps?q=${location.title}&t=&z=7&ie=UTF8&iwloc=&output=embed`}
       />
     </Container>
   );

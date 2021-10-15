@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { Button } from "../../components/Button/Index";
 import { CultureSection } from "../../components/CultureSection/Index";
 import DicasUteis from "../../components/DicasUteis/Index";
 import { GastronomySection } from "../../components/GastronomySection/Index";
 import { H1 } from "../../components/H1/index";
-import { H2 } from "../../components/H2/Index";
+import { HistorySection } from "../../components/HistorySection/Index";
+import { HomeNavBar } from "../../components/HomeNavBar/Index";
 import { HowToGetThere } from "../../components/HowToGetThere/Index";
 import { NightLifeSection } from "../../components/NightLifeSection/Index";
 import { api } from "../../services/api";
@@ -25,33 +25,13 @@ export function Home(){
 			</Banner>
 
 			<Container>
-				<H1>
-					Você está em {locationJSON.title}
-				</H1>
-				<div className="nav-bar">
-					<Button>Dicas úteis</Button>
-					<Button outline>História</Button>
-					<Button outline>Como chegar</Button>
-					<Button outline>Cultura</Button>
-					<Button outline>Gastronomia</Button>
-					<Button outline>Parques</Button>
-					<Button outline>Vida noturna</Button>
-					<Button outline>Entretenimento</Button>
-					<Button outline>Alugue o seu carro</Button>
-				</div>
+				<H1>Você está em {locationJSON.title}</H1>
+				<HomeNavBar />
 				<DicasUteis />
-				<section>
-					<H2>
-						História de {locationJSON.title}
-					</H2>
-					<p>
-						{locationJSON.history?.text}
-					</p>
-					<Button outline>Ler mais</Button>
-				</section>
+				<HistorySection location={locationJSON} />
 			</Container>
 
-			<HowToGetThere location={locationJSON.title}/>
+			<HowToGetThere location={locationJSON}/>
 
 			<Container>
 				<CultureSection location={locationJSON} />

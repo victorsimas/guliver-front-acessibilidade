@@ -4,7 +4,7 @@ import { api } from "../../services/api";
 import React from 'react';
 import * as S from './Styles';
 
-import { FaMapSigns, FaLanguage, FaSuitcaseRolling, FaStreetView, FaRegMoneyBillAlt, FaBolt, FaBusinessTime, FaPassport, FaTemperatureHigh, FaRegClock, FaUserClock } from "react-icons/fa";
+import { FaLanguage, FaSuitcaseRolling, FaStreetView, FaRegMoneyBillAlt, FaBolt, FaPassport, FaTemperatureHigh, FaRegClock } from "react-icons/fa";
 import { MdFreeCancellation } from "react-icons/md";
 
 export function DicasUteis() {
