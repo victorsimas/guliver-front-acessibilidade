@@ -51,4 +51,8 @@ export const locations = {
       "https://i2.wp.com/spcity.com.br/wp-content/uploads/2020/09/parqueibirapuera-scaled.jpg?resize=1024%2C682&ssl=1",
     ],
   },
+  entertainment: {
+	  text: "Com tanta diversidade, não é de se admirar que São Paulo seja um prato cheio para quem busca diversão e entretenimento. Sempre há o que fazer na terra da garoa e, por isso, uma visita nunca será igual à outra.",
+	  img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/ef/fb/bd/tiranossauro-rex-sitio.jpg?w=500&h=400&s=1",
+  }
 };
