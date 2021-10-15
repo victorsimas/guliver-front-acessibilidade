@@ -4,8 +4,8 @@ export function ImagesCarouselRatangle({ src }) {
   return (
     <Container>
       {src &&
-        src.map((url) => {
-          return <img src={url} alt="" />;
+        src.map((url, index) => {
+          return <img key={index} src={url} alt="" />;
         })}
     </Container>
   );
