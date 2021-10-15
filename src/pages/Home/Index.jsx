@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { CultureSection } from "../../components/CultureSection/Index";
-import UsefulTips from "../../components/DicasUteis/Index";
+import UsefulTips from "../../components/UsefulTips/Index";
 import { EntertainmentSection } from "../../components/EntertainmentSection/Index";
 import { GastronomySection } from "../../components/GastronomySection/Index";
 import { H1 } from "../../components/H1/index";

@@ -24,7 +24,7 @@ width: 100%;
 max-width: 1080px;
 background: #fff;
 margin: 0 auto;
-padding: 0.8em 0.8em;
+padding: 0em 0.8em;
 display: flex;
 justify-content: space-between;
 
