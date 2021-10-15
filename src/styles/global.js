@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 	  --orange-light: #F2762E;
 	  --orange-dark: #F23927;
 	  --grey-text: #454545;
+	  --orange-bg: #F9EFE3;
   }
   * {
 	  padding: 0;

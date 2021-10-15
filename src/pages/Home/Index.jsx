@@ -9,6 +9,7 @@ import { HomeNavBar } from "../../components/HomeNavBar/Index";
 import { HowToGetThere } from "../../components/HowToGetThere/Index";
 import { NightLifeSection } from "../../components/NightLifeSection/Index";
 import { ParksSection } from "../../components/ParksSection/Index";
+import { RentYourCarSection } from "../../components/RentYourCarSection/Index";
 import { api } from "../../services/api";
 import { Banner, Container } from "./Styles";
 
@@ -41,6 +42,8 @@ export function Home() {
 		<ParksSection location={locationJSON} />
 		<EntertainmentSection location={locationJSON} />
       </Container>
+
+	  <RentYourCarSection location={locationJSON} />
     </>
   );
 }
