@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { CultureSection } from "../../components/CultureSection/Index";
-import DicasUteis from "../../components/DicasUteis/Index";
+import UsefulTips from "../../components/DicasUteis/Index";
 import { EntertainmentSection } from "../../components/EntertainmentSection/Index";
 import { GastronomySection } from "../../components/GastronomySection/Index";
 import { H1 } from "../../components/H1/index";
@@ -29,7 +29,7 @@ export function Home() {
       <Container>
         <H1>Você está em {locationJSON.title}</H1>
         <HomeNavBar />
-        <DicasUteis />
+        <UsefulTips />
         <HistorySection location={locationJSON} />
       </Container>
 

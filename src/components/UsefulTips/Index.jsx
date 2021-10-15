@@ -3,11 +3,11 @@ import { api } from "../../services/api";
 
 import React from 'react';
 import * as S from './Styles';
-
-import { FaLanguage, FaSuitcaseRolling, FaStreetView, FaRegMoneyBillAlt, FaBolt, FaPassport, FaTemperatureHigh, FaRegClock } from "react-icons/fa";
+import H2 from '../H2/Index';
+import { FaMapSigns, FaLanguage, FaSuitcaseRolling, FaStreetView, FaRegMoneyBillAlt, FaBolt, FaPassport, FaTemperatureHigh, FaRegClock } from "react-icons/fa";
 import { MdFreeCancellation } from "react-icons/md";
 
-export function DicasUteis() {
+export function UsefulTips() {
 
     const [locationJSON, setLocationJSON] = useState([]);
 
@@ -19,6 +19,30 @@ export function DicasUteis() {
     return (
         <>
             <S.Container>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"
+                        id="headingOne">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne"
+                            aria-expanded="false"
+                            aria-controls="collapseOne">
+                            <H2 >Dicas Uteis<FaMapSigns id="faIcon" /></H2>
+                            
+                        </button>
+                    </h2>
+                    <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne">
+                        <div class="accordion-body">
+
+
+
                 <div className="card w-75">
 
                     <div className="card-body">
@@ -110,9 +134,15 @@ export function DicasUteis() {
                     </div>
                 </div>
 
+                </div>
+                    </div>
+                </div>
+            </div>
+
+
             </S.Container>
         </>
     );
 }
 
-export default DicasUteis;
+export default UsefulTips;

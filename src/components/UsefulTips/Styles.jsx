@@ -31,7 +31,8 @@ justify-content: space-between;
 //border: 5px solid yellow;
 
 .card{
-
+margin: auto;
+margin-bottom: 5px;
     background: #454545;
 }
 
@@ -54,6 +55,27 @@ font-size: 1rem;
 }
 
 & i{
-    font-size: 1rem;
+    font-size: 1.7rem;
+}
+
+
+& #faIcon{
+margin-left: 15px;
+}
+
+& .accordion{
+    width: 100%;
+//border: 1.5px solid red;
+-webkit-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.25); 
+box-shadow: 5px 7px 5px -2px rgba(0,0,0,0.25);
+}
+
+& .accordion-button:focus {
+    box-shadow: 0 0 0 0.10rem #f2382732;
+}
+
+& .accordion-button:not(.collapsed) {
+    background-color: #f2382732;
+
 }
 `;

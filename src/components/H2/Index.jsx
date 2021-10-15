@@ -5,3 +5,5 @@ export function H2({children}) {
 		<Container>{children}</Container>
 	)
 }
+
+export default H2;
