@@ -14,10 +14,25 @@
       name="description"
       content="Gulliver Traveller | Tudo sobre locais turísticos"
     />
+    <!-- STYLE E CONTRASTE -->
+    <link rel='stylesheet' id='styleContraste' href="css/style.css"  type='text/css' media='all' />
+
+    <!-- ACESSIBILIDADE JS -->
+    <script src="js/acessibilidade.js"></script>
     <title>Gulliver Traveller | Tudo sobre locais turísticos</title>
   </head>
   <body>
     <noscript>Por favor, habilite o JavaScript para carregar essa página.</noscript>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
     <div id="root"></div>
   </body>
   <!-- JS Bootstrap 5 Dont Erase -->

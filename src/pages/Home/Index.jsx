@@ -42,7 +42,6 @@ export function Home() {
 		<ParksSection location={locationJSON} />
 		<EntertainmentSection location={locationJSON} />
       </Container>
-
 	  <RentYourCarSection location={locationJSON} />
     </>
   );

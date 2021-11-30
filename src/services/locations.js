@@ -44,10 +44,6 @@ export const locations = {
   parks: {
     text: "Quando o final de semana está chegando, as pessoas já começam a se organizar para curtir os dias de folgas, e os lindos parques de São Paulo entram nessa lista de opções de passeios. São Paulo conta com uma variedade de parque para todo o tipo de público e estar em contato com a natureza faz bem ao corpo e a alma, ainda mais para que vive em uma cidade agitada como a capital paulista.",
     img: [
-      "https://i1.wp.com/spcity.com.br/wp-content/uploads/2020/09/parqueaguabranca.jpg?w=1024&ssl=1",
-      "https://i0.wp.com/spcity.com.br/wp-content/uploads/2020/09/parque-juventude.jpg?w=748&ssl=1",
-      "https://i2.wp.com/spcity.com.br/wp-content/uploads/2020/09/pordosol.jpg?w=640&ssl=1",
-      "https://i0.wp.com/spcity.com.br/wp-content/uploads/2020/09/parque-villa-lobos.jpg?w=748&ssl=1",
       "https://i2.wp.com/spcity.com.br/wp-content/uploads/2020/09/parqueibirapuera-scaled.jpg?resize=1024%2C682&ssl=1",
     ],
   },
