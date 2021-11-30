@@ -20,6 +20,8 @@ https://gist.github.com/vitorpacheco/5308318
 
 ## Como executar esse site local?
 
+npm --version -> 6.14.14
+
 ### Instale as dependências do NPM
 npm install --force
 
